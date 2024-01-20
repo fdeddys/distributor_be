@@ -24,9 +24,9 @@ var (
 func init() {
 
 	dbtype = beego.AppConfig.DefaultString("db.type", "POSTGRES")
-	dbuser = beego.AppConfig.DefaultString("db.postgres.user", "ottoagcfg")
-	dbpass = beego.AppConfig.DefaultString("db.postgres.pass", "dTj*&56$es")
-	dbname = beego.AppConfig.DefaultString("db.postgres.name", "ottoagdb")
+	dbuser = beego.AppConfig.DefaultString("db.postgres.user", "")
+	dbpass = beego.AppConfig.DefaultString("db.postgres.pass", "$")
+	dbname = beego.AppConfig.DefaultString("db.postgres.name", "")
 	dbaddres = beego.AppConfig.DefaultString("db.postgres.addres", "")
 	dbport = beego.AppConfig.DefaultString("db.postgres.port", "8086")
 	sslmode = beego.AppConfig.DefaultString("db.postgres.sslmode", "disable")
